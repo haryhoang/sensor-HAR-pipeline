@@ -48,6 +48,14 @@ As shown below, the pipeline extracts specific signal signatures:
 
 ### 1. Data Ownership
 This repository **does not host or distribute** the original WEDA-FALL Dataset. The code provided here is strictly a **processing pipeline** (feature extraction logic) intended for educational and research purposes.
+This project uses the WEDA-FALL dataset for experimental and research purposes.
+
+Original dataset:
+WEDA-FALL – Wrist Elderly Daily Activity and Fall Dataset  
+Publicly available on GitHub.
+
+All rights of the original dataset belong to the original authors.
+This repository does not redistribute the raw dataset.
 
 ### 2. How to obtain the Data
 To use this pipeline, users must download the dataset directly from the official source or contact the original authors.
