@@ -25,23 +25,7 @@ This repository provides a robust **ETL Pipeline** designed to transform raw acc
 
 One of the key challenges is distinguishing a **Fall** from a **Sit-down** action.
 As shown below, the pipeline extracts specific signal signatures:
-
-![Signal Visualization](<img width="884" height="858" alt="image" src="https://github.com/user-attachments/assets/70cc8ba9-41bc-4f3b-bc25-ccc06c811dff" />
-)
-
-## 📂 Project Structure
-
-
-Sensor-HAR-Pipeline/
-├── data/
-│   ├── raw/               # Original datasets WEDA
-│   └── processed/         # Cleaned CSVs ready for ML training
-├── notebooks/             # Jupyter Notebooks for EDA & Prototyping
-├── src/
-│   ├── features.py        # Mathematical formulas for feature extraction
-│   └── pipeline.py        # Main ETL script to process full datasets
-├── output/                # Generated plots and reports
-└── README.md              # Project Documentation
+<img width="884" height="858" alt="image" src="https://github.com/user-attachments/assets/70cc8ba9-41bc-4f3b-bc25-ccc06c811dff" />
 
 
 ## 🛠️ How to Use
@@ -72,7 +56,25 @@ To use this pipeline, users must download the dataset directly from the official
 
 ### 3. Citation
 If you use the WEDA dataset in your work, please cite the original paper by the authors:
+
 Paper: Marques, J. et al. "WEDA: Wrist Elderly Daily Activity and Fall Dataset." (2023)
+
 (Please refer to the official repository for the exact BibTeX citation).
 
 *This project respects the intellectual property rights of the dataset creators.*
+
+## 📂 Project Structure
+
+```text
+Sensor-HAR-Pipeline/
+├── data/
+│   ├── raw/               # Original datasets (WEDA, SisFall)
+│   └── processed/         # Cleaned CSVs ready for ML training
+├── notebooks/             # Jupyter Notebooks for EDA & Prototyping
+├── src/
+│   ├── features.py        # Mathematical formulas for feature extraction
+│   └── pipeline.py        # Main ETL script to process full datasets
+├── output/                # Generated plots and reports
+└── README.md              # Project Documentation
+
+
