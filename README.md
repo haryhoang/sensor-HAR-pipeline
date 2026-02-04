@@ -25,7 +25,9 @@ This repository provides a robust **ETL Pipeline** designed to transform raw acc
 
 One of the key challenges is distinguishing a **Fall** from a **Sit-down** action.
 As shown below, the pipeline extracts specific signal signatures:
-<img width="884" height="858" alt="image" src="https://github.com/user-attachments/assets/70cc8ba9-41bc-4f3b-bc25-ccc06c811dff" />
+
+<img width="879" height="676" alt="image" src="https://github.com/user-attachments/assets/a19a3baf-a59c-4662-af04-b6452a7a7ac9" />
+
 
 
 ## 🛠️ How to Use
